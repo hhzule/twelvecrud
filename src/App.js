@@ -65,6 +65,8 @@ function App() {
         setTodo(data);
       });
   }
+if (isloading)
+    return <h1>loading . . . </h1>
 
   return (
 
